@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+<div class="bg-gray-300 flex rounded-3xl justify-center items-center p-10">
+    <div class="container rounded-xl justify-between items-center justify-self-center flex flex-col md:flex-row gap-10">
+        <div>
+            <div class="flex flex-col gap-2">
+                <div class="gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                    <div class="flex flex-row gap-2">
+                        <p>Zone 1</p>
+                        <p id="zone1-name"></p>
+                    </div>
+                    <div id="cls1-zone" class="flex gap-2"></div>
+                </div>
+                <div class="gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                    <div class="flex flex-row gap-2">
+                        <p>Zone 2</p>
+                        <p id="zone2-name"></p>
+                    </div>
+                    <div id="cls2-zone" class="flex gap-2"></div>
+                </div>
+                <div class="gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                    <div class="flex flex-row gap-2">
+                        <p>Zone 3</p>
+                        <p id="zone3-name"></p>
+                    </div>
+                    <div id="cls3-zone" class="flex gap-2"></div>
+                </div>
+                <div class="gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                    <div class="flex flex-row gap-2">
+                        <p>Zone 4</p>
+                        <p id="zone4-name"></p>
+                    </div>
+                    <div id="cls4-zone" class="flex gap-2"></div>
+                </div>
+                <div class="gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                    <div class="flex flex-row gap-2">
+                        <p>Zone 5</p>
+                        <p id="zone5-name"></p>
+                    </div>
+                    <div id="cls5-zone" class="flex gap-2"></div>
+                </div>
+                <div class="gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                    <div class="flex flex-row gap-2">
+                        <p>Zone 6</p>
+                        <p id="zone6-name"></p>
+                    </div>
+                    <div id="cls6-zone" class="flex gap-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex flex-col gap-5 justify-center items-center flex-grow">
+            <div class="w-full  md:w-2/3 flex flex-col items-center justify-center gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                <h6>Top</h6>
+                <svg id="katman_1" class="flex w-full" data-name="katman 1" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 414.37 91.56">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #ce34c3;
+                            }
+
+                            .cls-2 {
+                                fill: #f9f200;
+                            }
+
+                            .cls-3 {
+                                fill: #f70b0b;
+                            }
+
+                            .cls-4 {
+                                fill: #e8ff06;
+                            }
+
+                            .cls-5 {
+                                fill: #0e0ee2;
+                            }
+
+                            .cls-6 {
+                                fill: #0e0ee2;
+                            }
+                        </style>
+                    </defs>
+                    <polygon class="cls-1"
+                             points="0 48.44 17.18 34.81 57.19 81.33 35.41 78.52 16.82 75.33 5.48 72.22 0 70.44 0 48.44"/>
+                    <polygon class="cls-1" points="24.26 31.11 29.59 28.5 73.48 83.44 67.59 83.44 24.26 31.11"/>
+                    <polygon class="cls-2" points="17.7 34.33 23.59 30.89 66.37 83.44 58.59 82.22 17.7 34.33"/>
+                    <polygon class="cls-6"
+                             points="30.82 27.79 50.15 20.44 61.48 16.89 75.7 13.11 214.59 13.11 340.59 13.11 356.15 17.56 370.15 22 379.04 25.78 383.26 27.79 339.7 84.44 307.48 87.33 281.26 89.33 241.93 91.56 217.48 91.56 186.15 91.56 134.37 89.33 100.59 86.67 81.48 85 75.04 84.22 30.82 27.79"/>
+                    <polygon class="cls-3"
+                             points="76.15 12.3 102.22 8 129.93 4.3 149.48 2.07 174.67 0.59 194.67 0 233.78 0 254.81 1.48 272.74 2.81 293.48 5.18 311.11 7.7 325.19 10.22 339.56 12.3 76.15 12.3"/>
+                    <polygon class="cls-4" points="391.11 31.26 348.09 83.85 354.87 83.85 397.19 34.81 391.11 31.26"/>
+                    <polygon class="cls-5" points="385.19 28.5 390.37 30.67 347.26 83.85 340.74 83.85 385.19 28.5"/>
+                    <polygon class="cls-5"
+                             points="356.44 83.85 398.37 35.41 406.52 40.89 411.85 45.33 414.37 47.56 414.37 70.81 404.44 73.78 390.37 77.33 367.41 82.52 356.44 83.85"/>
+                </svg>
+            </div>
+            <div class="w-full md:w-2/3 flex flex-col items-center justify-center gap-1 border border-black/30 rounded-xl shadow-xl bg-gray-200/70 p-2">
+                <h6>Bottom</h6>
+                <svg id="katman_1" class="flex w-full rotate-y-180" data-name="katman 1"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414.37 91.56">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #ce34c3;
+                            }
+
+                            .cls-2 {
+                                fill: #f9f200;
+                            }
+
+                            .cls-3 {
+                                fill: #f70b0b;
+                            }
+
+                            .cls-4 {
+                                fill: #e8ff06;
+                            }
+
+                            .cls-5 {
+                                fill: #0e0ee2;
+                            }
+
+                            .cls-6 {
+                                fill: #0e0ee2;
+                            }
+                        </style>
+                    </defs>
+                    <polygon class="cls-1"
+                             points="0 48.44 17.18 34.81 57.19 81.33 35.41 78.52 16.82 75.33 5.48 72.22 0 70.44 0 48.44"/>
+                    <polygon class="cls-1" points="24.26 31.11 29.59 28.5 73.48 83.44 67.59 83.44 24.26 31.11"/>
+                    <polygon class="cls-2" points="17.7 34.33 23.59 30.89 66.37 83.44 58.59 82.22 17.7 34.33"/>
+                    <polygon class="cls-6"
+                             points="30.82 27.79 50.15 20.44 61.48 16.89 75.7 13.11 214.59 13.11 340.59 13.11 356.15 17.56 370.15 22 379.04 25.78 383.26 27.79 339.7 84.44 307.48 87.33 281.26 89.33 241.93 91.56 217.48 91.56 186.15 91.56 134.37 89.33 100.59 86.67 81.48 85 75.04 84.22 30.82 27.79"/>
+                    <polygon class="cls-3"
+                             points="76.15 12.3 102.22 8 129.93 4.3 149.48 2.07 174.67 0.59 194.67 0 233.78 0 254.81 1.48 272.74 2.81 293.48 5.18 311.11 7.7 325.19 10.22 339.56 12.3 76.15 12.3"/>
+                    <polygon class="cls-4" points="391.11 31.26 348.09 83.85 354.87 83.85 397.19 34.81 391.11 31.26"/>
+                    <polygon class="cls-5" points="385.19 28.5 390.37 30.67 347.26 83.85 340.74 83.85 385.19 28.5"/>
+                    <polygon class="cls-5"
+                             points="356.44 83.85 398.37 35.41 406.52 40.89 411.85 45.33 414.37 47.56 414.37 70.81 404.44 73.78 390.37 77.33 367.41 82.52 356.44 83.85"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let selectedZone1 = null;
+    let selectedZone2 = null;
+    let selectedZone3 = null;
+    let selectedZone4 = null;
+    let selectedZone5 = null;
+    let selectedZone6 = null;
+    const colors1 = ["#ff0000", "#00ff00", "#0000ff", "#ffffff"];
+    const colors2 = [
+        {
+            name: "Yellow",
+            color: "#FCE716",
+        },
+        {
+            name: "Gold",
+            color: "#FFD41F",
+        },
+        {
+            name: "Orange",
+            color: "#EE7402",
+        },
+        {
+            name: "Purple",
+            color: "#973067",
+        },
+        {
+            name: "Royal Blue",
+            color: "#0075B6",
+        },
+        {
+            name: "Deep Blue",
+            color: "#00417C",
+        },
+        {
+            name: "Dragon red",
+            color: "#FF1200",
+        },
+        {
+            name: "Sangria",
+            color: "#FF0068",
+        },
+        {
+            name: "Dark red",
+            color: "#AA0202",
+        },
+        {
+            name: "Lime green",
+            color: "#87C068",
+        },
+        {
+            name: "Green",
+            color: "#039339",
+        },
+        {
+            name: "Dark gray",
+            color: "#575D5A",
+        },
+        {
+            name: "Black",
+            color: "#000000",
+        },
+        {
+            name: "White",
+            color: "#FFFFFF",
+        }];
+    const buttonZone1 = document.getElementById("cls1-zone");
+    const buttonZone2 = document.getElementById("cls2-zone");
+    const buttonZone3 = document.getElementById("cls3-zone");
+    const buttonZone4 = document.getElementById("cls4-zone");
+    const buttonZone5 = document.getElementById("cls5-zone");
+    const buttonZone6 = document.getElementById("cls6-zone");
+
+
+    const buttons1 = colors2.map(item => {
+        const button = document.createElement("button");
+        button.className = `bg-[${item.color}] w-5 h-5 rounded-full aspect-square outline-offset-[1px] outline-black-/70 shadow-xl`
+        button.addEventListener("click", () => {
+            cls1change(item, button);
+        });
+        return button;
+    });
+    buttons1.forEach(button => {
+        buttonZone1.appendChild(button);
+    });
+    const buttons2 = colors2.map(item => {
+        const button = document.createElement("button");
+        button.className = `bg-[${item.color}] w-5 h-5 rounded-full aspect-square outline-offset-[1px] outline-black-/70 shadow-xl`
+        button.addEventListener("click", () => {
+            cls2change(item, button);
+        });
+        return button;
+    });
+    buttons2.forEach(button => {
+        buttonZone2.appendChild(button);
+    });
+    const buttons3 = colors2.map(item => {
+        const button = document.createElement("button");
+        button.className = `bg-[${item.color}] w-5 h-5 rounded-full aspect-square outline-offset-[1px] outline-black-/70 shadow-xl`
+        button.addEventListener("click", () => {
+            cls3change(item, button);
+        });
+        return button;
+    });
+    buttons3.forEach(button => {
+        buttonZone3.appendChild(button);
+    });
+    const buttons4 = colors2.map(item => {
+        const button = document.createElement("button");
+        button.className = `bg-[${item.color}] w-5 h-5 rounded-full aspect-square outline-offset-[1px] outline-black-/70 shadow-xl`
+        button.addEventListener("click", () => {
+            cls4change(item, button);
+        });
+        return button;
+    });
+    buttons4.forEach(button => {
+        buttonZone4.appendChild(button);
+    });
+    const buttons5 = colors2.map(item => {
+        const button = document.createElement("button");
+        button.className = `bg-[${item.color}] w-5 h-5 rounded-full aspect-square outline-offset-[1px] outline-black-/70 shadow-xl`
+        button.addEventListener("click", () => {
+            cls5change(item, button);
+        });
+        return button;
+    });
+    buttons5.forEach(button => {
+        buttonZone5.appendChild(button);
+    });
+    const buttons6 = colors2.map(item => {
+        const button = document.createElement("button");
+        button.className = `bg-[${item.color}] w-5 h-5 rounded-full aspect-square outline-offset-[1px] outline-black-/70 shadow-xl`
+        button.addEventListener("click", () => {
+            cls6change(item, button);
+        });
+        return button;
+    });
+    buttons6.forEach(button => {
+        buttonZone6.appendChild(button);
+    });
+
+    function cls1change(item, button) {
+        var cls1Elements = document.getElementsByClassName('cls-1');
+        var cls1Name = document.getElementById('zone1-name');
+        cls1Name.textContent = item.name;
+        for (var i = 0; i < cls1Elements.length; i++) {
+            cls1Elements[i].style.fill = item.color;
+        }
+        if (selectedZone1) {
+            selectedZone1.classList.remove('outline-[1px]');
+        }
+        button.classList.add('outline-[1px]');
+        selectedZone1 = button;
+    }
+
+    function cls2change(item, button) {
+        var cls2Elements = document.getElementsByClassName('cls-2');
+        var cls2Name = document.getElementById('zone2-name');
+        cls2Name.textContent = item.name;
+        for (var i = 0; i < cls2Elements.length; i++) {
+            cls2Elements[i].style.fill = item.color;
+        }
+        if (selectedZone2) {
+            selectedZone2.classList.remove('outline-[1px]');
+        }
+        button.classList.add('outline-[1px]');
+        selectedZone2 = button;
+    }
+
+    function cls3change(item, button) {
+        var cls3Elements = document.getElementsByClassName('cls-3');
+        var cls3Name = document.getElementById('zone3-name');
+        cls3Name.textContent = item.name;
+        for (var i = 0; i < cls3Elements.length; i++) {
+            cls3Elements[i].style.fill = item.color;
+        }
+        if (selectedZone3) {
+            selectedZone3.classList.remove('outline-[1px]');
+        }
+        button.classList.add('outline-[1px]');
+        selectedZone3 = button;
+    }
+
+    function cls4change(item, button) {
+        var cls4Elements = document.getElementsByClassName('cls-4');
+        var cls4Name = document.getElementById('zone4-name');
+        cls4Name.textContent = item.name;
+        for (var i = 0; i < cls4Elements.length; i++) {
+            cls4Elements[i].style.fill = item.color;
+        }
+        if (selectedZone4) {
+            selectedZone4.classList.remove('outline-[1px]');
+        }
+        button.classList.add('outline-[1px]');
+        selectedZone4 = button;
+    }
+
+    function cls5change(item, button) {
+        var cls5Elements = document.getElementsByClassName('cls-5');
+        var cls5Name = document.getElementById('zone5-name');
+        cls5Name.textContent = item.name;
+        for (var i = 0; i < cls5Elements.length; i++) {
+            cls5Elements[i].style.fill = item.color;
+        }
+        if (selectedZone5) {
+            selectedZone5.classList.remove('outline-[1px]');
+        }
+        button.classList.add('outline-[1px]');
+        selectedZone5 = button;
+    }
+
+    function cls6change(item, button) {
+        var cls6Elements = document.getElementsByClassName('cls-6');
+        var cls6Name = document.getElementById('zone6-name');
+        cls6Name.textContent = item.name;
+        for (var i = 0; i < cls6Elements.length; i++) {
+            cls6Elements[i].style.fill = item.color;
+        }
+        if (selectedZone6) {
+            selectedZone6.classList.remove('outline-[1px]');
+        }
+        button.classList.add('outline-[1px]');
+        selectedZone6 = button;
+    }
+</script>
+</body>
+</html>
