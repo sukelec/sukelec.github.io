@@ -108,11 +108,7 @@
 <!--            </div>-->
         </div>
         <div class="w-full h-1/2 sm:pr-4 md:pr-6 md:h-full md:w-2/3 flex flex-col justify-center items-center bg-gray-300/80">
-            <model-viewer id="model-viewer" class="w-full h-full" src='/colorpicker/hobbyv2.glb' ar-modes="quick-look" camera-controls
-                          slot="progress-bar" tone-mapping="aces"
-                          field-of-view="30deg" camera-orbit="70deg 80deg 20deg" touch-action="pan-y"
-                          load="assigna_predefinit(0)" exposure="0.8" disable-pan
-                          max-camera-orbit="auto auto auto">
+            <model-viewer id="model-viewer" class="w-full h-full" src='/colorpicker/hobbyv2.glb' ar-status="not-presenting" camera-controls interpolation-decay="0" slot="progress-bar" tone-mapping="none" environment-image="neutral" field-of-view="30deg" camera-orbit="70deg 80deg auto" touch-action="pan-y" exposure="0.8" disable-pan max-camera-orbit="auto auto auto">
             </model-viewer>
         </div>
     </div>
